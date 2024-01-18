@@ -1,0 +1,47 @@
+.form,
+.userName {
+  position: relative;
+}
+.userName {
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.frameWrapper,
+.userNameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.userNameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-saira-semicondensed);
+}
+@media screen and (max-width: 800px) {
+  .userName {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

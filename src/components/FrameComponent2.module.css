@@ -1,0 +1,109 @@
+.patient {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.dropdownIcon,
+.form {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  min-width: 250px;
+}
+.dropdownIcon {
+  width: 24px;
+  height: 24px;
+}
+.doctor {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form1 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.date,
+.form1,
+.form2 {
+  position: relative;
+}
+.date {
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form2 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.availableTime {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form3 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.frameWrapper,
+.patientParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.patientParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  align-self: stretch;
+  height: 445px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-saira-semicondensed);
+}
+@media screen and (max-width: 450px) {
+  .availableTime,
+  .date,
+  .doctor,
+  .patient {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

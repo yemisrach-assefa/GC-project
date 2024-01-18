@@ -1,0 +1,156 @@
+.bookAppointment {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-cadetblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+}
+.back,
+.backIcon,
+.bookAppointment {
+  position: relative;
+}
+.backIcon {
+  width: 24px;
+  height: 24px;
+}
+.back {
+  font-size: var(--font-size-9xl);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--color-black);
+  text-align: left;
+}
+.backParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.backParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-2xs);
+  background-color: var(--color-gainsboro-200);
+  align-items: center;
+  gap: var(--gap-8xs);
+}
+.backParent:hover,
+.createAppointmentWrapper:hover {
+  background-color: var(--color-silver-200);
+}
+.frameWrapper {
+  height: 47px;
+  align-items: flex-start;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.createAppointment {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 29px;
+}
+.createAppointmentWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.createAppointmentWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs);
+  background-color: var(--color-gainsboro-200);
+  width: 284px;
+  align-items: center;
+  white-space: nowrap;
+}
+.frameContainer {
+  width: 584px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.appointments,
+.appointmentsInner,
+.bookAppointmentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookAppointmentParent {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 65px;
+  max-width: 100%;
+}
+.appointments,
+.appointmentsInner {
+  box-sizing: border-box;
+}
+.appointmentsInner {
+  width: 1032px;
+  flex-direction: column;
+  padding: var(--padding-44xl) 0 0;
+  max-width: 100%;
+}
+.appointments {
+  position: relative;
+  background-color: var(--outline-action-primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-12xs) 0 0;
+  gap: var(--gap-22xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .appointments {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .bookAppointmentParent {
+    gap: var(--gap-13xl);
+  }
+  .appointmentsInner {
+    padding-top: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bookAppointment {
+    font-size: var(--font-size-13xl);
+  }
+  .bookAppointmentParent {
+    gap: var(--gap-base);
+  }
+  .appointments {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookAppointment {
+    font-size: var(--font-size-5xl);
+  }
+  .back {
+    font-size: var(--font-size-3xl);
+    line-height: 31px;
+  }
+  .appointmentsInner {
+    padding-top: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,830 @@
+.materialSymbolsdashboardOutIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashboard,
+.icondashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icondashboard {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.appointmentIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.appointmentIcon,
+.dashboard3 {
+  position: relative;
+}
+.dashboard2,
+.icondashboard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard2 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0;
+}
+.icondashboard1 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.dashboard5,
+.registrationIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.registrationIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.dashboard5 {
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.dashboard4 {
+  width: 124px;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dashboard4,
+.icondashboard2,
+.registrationParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.registrationParent {
+  border-right: 3px solid var(--color-cadetblue-100);
+  box-sizing: border-box;
+  width: 204px;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.icondashboard2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-12xs);
+  background-color: transparent;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.userIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashboard6,
+.icondashboard3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard6 {
+  padding: 0 var(--padding-12xl) 0 0;
+}
+.icondashboard3 {
+  gap: var(--gap-mini);
+}
+.profileIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.dashboard9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashboard8,
+.icondashboard4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard8 {
+  flex: 1;
+  overflow: hidden;
+}
+.icondashboard4 {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.materialSymbolsdashboardOutIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.dashboard10 {
+  position: relative;
+  width: 124px;
+  height: 29px;
+}
+.icondashboard5,
+.materialSymbolsdashboardOutParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutParent {
+  border-right: 3px solid var(--color-cadetblue-100);
+  display: flex;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-mini);
+}
+.icondashboard5 {
+  align-self: stretch;
+  display: none;
+  color: var(--color-black);
+}
+.materialSymbolsdashboardOutIcon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.dashboard12 {
+  position: relative;
+  width: 124px;
+  height: 29px;
+}
+.icondashboard6,
+.materialSymbolsdashboardOutGroup {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutGroup {
+  border-right: 3px solid var(--color-cadetblue-100);
+  display: flex;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-mini);
+}
+.icondashboard6 {
+  align-self: stretch;
+  display: none;
+  color: var(--color-black);
+}
+.icondashboardParent {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.frameWrapper,
+.icondashboardParent,
+.profileParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 166px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.profileParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-52xl);
+}
+.materialSymbolslogoutSharpIcon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logout {
+  position: relative;
+}
+.mainSidebar,
+.materialSymbolslogoutSharpParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.mainSidebar {
+  background-color: var(--color-powderblue-100);
+  width: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-22xl) var(--padding-xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-350xl);
+}
+.firstName,
+.newPatientRegistration {
+  position: relative;
+  padding-right: var(--padding-xl);
+}
+.newPatientRegistration {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.firstName {
+  line-height: 140%;
+}
+.form {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.firstNameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.dateOfBirthmonthdayyear {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form1,
+.form2,
+.form3 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  position: relative;
+  box-sizing: border-box;
+  width: 89px;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dateOfBirthmonthdayyearParent,
+.formParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.formParent {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.dateOfBirthmonthdayyearParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-height: 97px;
+}
+.contact,
+.form4 {
+  position: relative;
+}
+.contact {
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form4 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.contactParent {
+  align-self: stretch;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.adress,
+.form5 {
+  position: relative;
+}
+.adress {
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form5 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.adressParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.martialStatus {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form6 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.martialStatusParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.takingAnyMedications {
+  position: relative;
+  line-height: 140%;
+  white-space: pre-wrap;
+  padding-right: var(--padding-xl);
+}
+.form7 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.frameGroup,
+.takingAnyMedicationsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.takingAnyMedicationsParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.frameGroup {
+  width: 417px;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 417px;
+  max-width: 100%;
+}
+.lastName {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form8 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.lastNameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.form9,
+.sex {
+  position: relative;
+}
+.sex {
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form9 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.sexParent {
+  align-self: stretch;
+  height: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.email,
+.form10 {
+  position: relative;
+}
+.email {
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form10 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.emailParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.postalCode {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form11 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.postalCodeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.emergencyContact {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form12 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.emergencyContactParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ifYesList {
+  position: relative;
+  line-height: 140%;
+  padding-right: var(--padding-xl);
+}
+.form13 {
+  border: 1px solid var(--color-gray-300);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.frameDiv,
+.ifYesListItHereParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameDiv {
+  flex: 1;
+  gap: var(--gap-lgi);
+}
+.accept {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--outline-action-primary);
+  text-align: left;
+}
+.acceptWrapper,
+.button,
+.buttonInner {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acceptWrapper {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.button,
+.buttonInner {
+  box-sizing: border-box;
+}
+.buttonInner {
+  cursor: pointer;
+  border: 2px solid var(--outline-action-primary);
+  padding: 0 var(--padding-9xs) 0 0;
+  background-color: transparent;
+  height: 34px;
+  justify-content: flex-start;
+}
+.button {
+  background-color: #0eccaa;
+  border: 4px solid #90f2e0;
+  width: 146px;
+  height: 59px;
+  justify-content: center;
+}
+.frameContainer {
+  width: 416px;
+  height: 806px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 117px;
+  min-width: 416px;
+  max-width: 100%;
+}
+.frameParent,
+.newPatientRegistrationFormParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-saira-semicondensed);
+}
+.newPatientRegistrationFormParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.registration,
+.registrationInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-inter);
+}
+.registrationInner {
+  width: 946px;
+  flex-direction: column;
+  padding: var(--padding-22xl) 0 0;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-cadetblue-200);
+}
+.registration {
+  position: relative;
+  background-color: var(--outline-action-primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs);
+  gap: 50px;
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+@media screen and (max-width: 1200px) {
+  .registration {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .mainSidebar {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .newPatientRegistration {
+    font-size: var(--font-size-13xl);
+  }
+  .frameGroup {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .newPatientRegistrationFormParent {
+    gap: var(--gap-13xl);
+  }
+  .registrationInner {
+    padding-top: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainSidebar {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .newPatientRegistrationFormParent {
+    gap: var(--gap-base);
+  }
+  .registrationInner {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .registration {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dashboard1,
+  .dashboard11,
+  .dashboard13,
+  .dashboard3,
+  .dashboard5,
+  .dashboard7,
+  .dashboard9,
+  .logout {
+    font-size: var(--font-size-lgi);
+  }
+  .mainSidebar {
+    gap: var(--gap-165xl);
+  }
+  .newPatientRegistration {
+    font-size: var(--font-size-5xl);
+  }
+  .dateOfBirthmonthdayyear,
+  .firstName {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .formParent {
+    flex-wrap: wrap;
+  }
+  .adress,
+  .contact,
+  .martialStatus,
+  .takingAnyMedications {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+  .email,
+  .emergencyContact,
+  .ifYesList,
+  .lastName,
+  .postalCode,
+  .sex {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .buttonInner {
+    width: calc(100% - 40px);
+  }
+  .frameContainer {
+    gap: 58px;
+    min-width: 100%;
+  }
+}

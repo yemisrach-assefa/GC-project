@@ -1,0 +1,347 @@
+.picIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 141px;
+  height: 141px;
+  object-fit: cover;
+}
+.drabebeMesfin {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.generalDoctor {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+}
+.name,
+.profile {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.profile {
+  gap: var(--gap-23xl);
+}
+.materialSymbolsdashboardOutIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashboard,
+.icondashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icondashboard {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.appointmentIcon,
+.dashboard3 {
+  position: relative;
+  flex-shrink: 0;
+}
+.appointmentIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.dashboard3 {
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.dashboard2 {
+  width: 124px;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appointmentParent,
+.dashboard2,
+.icondashboard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.appointmentParent {
+  border-right: 3px solid var(--color-cadetblue-100);
+  box-sizing: border-box;
+  width: 204px;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.icondashboard1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-12xs);
+  background-color: transparent;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.registrationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard5 {
+  position: relative;
+}
+.dashboard4,
+.icondashboard2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard4 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0;
+}
+.icondashboard2 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.userIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashboard6,
+.icondashboard3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard6 {
+  padding: 0 var(--padding-12xl) 0 0;
+}
+.icondashboard3 {
+  gap: var(--gap-mini);
+}
+.profileIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.dashboard9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashboard8,
+.icondashboard4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard8 {
+  flex: 1;
+  overflow: hidden;
+}
+.icondashboard4 {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.materialSymbolsdashboardOutIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.dashboard10 {
+  position: relative;
+  width: 124px;
+  height: 29px;
+}
+.icondashboard5,
+.materialSymbolsdashboardOutParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutParent {
+  border-right: 3px solid var(--color-cadetblue-100);
+  display: flex;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-mini);
+}
+.icondashboard5 {
+  align-self: stretch;
+  display: none;
+  color: var(--color-black);
+}
+.materialSymbolsdashboardOutIcon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.dashboard12 {
+  position: relative;
+  width: 124px;
+  height: 29px;
+}
+.icondashboard6,
+.materialSymbolsdashboardOutGroup {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutGroup {
+  border-right: 3px solid var(--color-cadetblue-100);
+  display: flex;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-mini);
+}
+.icondashboard6 {
+  align-self: stretch;
+  display: none;
+  color: var(--color-black);
+}
+.icondashboardParent {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.frameWrapper,
+.icondashboardParent,
+.profileParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 166px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.profileParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-52xl);
+}
+.materialSymbolslogoutSharpIcon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logout {
+  position: relative;
+}
+.mainSidebar,
+.materialSymbolslogoutSharpParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.mainSidebar {
+  background-color: var(--color-powderblue-100);
+  width: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-22xl) var(--padding-xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-350xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .mainSidebar {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainSidebar {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .drabebeMesfin {
+    font-size: var(--font-size-lgi);
+  }
+  .generalDoctor {
+    font-size: var(--font-size-base);
+  }
+  .dashboard1,
+  .dashboard11,
+  .dashboard13,
+  .dashboard3,
+  .dashboard5,
+  .dashboard7,
+  .dashboard9,
+  .logout {
+    font-size: var(--font-size-lgi);
+  }
+  .mainSidebar {
+    gap: var(--gap-165xl);
+  }
+}

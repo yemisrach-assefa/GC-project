@@ -1,0 +1,45 @@
+.picIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 141px;
+  height: 141px;
+  object-fit: contain;
+}
+.drabebeMesfin {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.generalDoctor {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+}
+.name,
+.profile {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.profile {
+  gap: var(--gap-23xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .drabebeMesfin {
+    font-size: var(--font-size-lgi);
+  }
+  .generalDoctor {
+    font-size: var(--font-size-base);
+  }
+}

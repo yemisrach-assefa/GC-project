@@ -1,0 +1,44 @@
+.monthYearLine {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 46px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.frameChild {
+  position: relative;
+  width: 275.1px;
+  height: 1.8px;
+  object-fit: contain;
+}
+.calanderInner {
+  align-self: stretch;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.calander,
+.dayDate {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+}
+.dayDate {
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.calander {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-4xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}

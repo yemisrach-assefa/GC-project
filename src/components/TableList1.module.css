@@ -1,0 +1,111 @@
+.tableChild {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.patientName,
+.tableChild {
+  position: relative;
+}
+.patientName,
+.patientName1,
+.table {
+  display: flex;
+  align-items: center;
+}
+.table {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-22xl);
+  gap: var(--gap-3xs);
+}
+.patientName1 {
+  position: relative;
+  white-space: nowrap;
+}
+.table1 {
+  width: 282px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+}
+.patientName2,
+.table1,
+.table2 {
+  display: flex;
+  align-items: center;
+}
+.patientName2 {
+  position: relative;
+}
+.table2 {
+  width: 283px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-sm)
+    var(--padding-2xl);
+  box-sizing: border-box;
+}
+.patientName3 {
+  position: relative;
+  mix-blend-mode: overlay;
+  white-space: nowrap;
+}
+.table3,
+.tableParent {
+  display: flex;
+  flex-direction: row;
+}
+.table3 {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-8xs) var(--padding-sm);
+}
+.tableParent {
+  width: 1129px;
+  overflow-x: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: clip;
+  max-height: unset;
+}
+.tableList,
+.tableListInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tableListInner {
+  height: 0;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.tableList {
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .patientName,
+  .patientName1,
+  .patientName2,
+  .patientName3 {
+    font-size: var(--font-size-lgi);
+  }
+}

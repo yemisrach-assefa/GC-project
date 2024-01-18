@@ -1,0 +1,216 @@
+.tableChild {
+  position: relative;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.patientName,
+.table {
+  display: flex;
+  align-items: center;
+}
+.patientName {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.table {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.dateOfBirth,
+.march1990 {
+  position: relative;
+}
+.march1990 {
+  color: var(--color-gray-100);
+}
+.dateOfBirthParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.dec2023,
+.lastAppointment {
+  position: relative;
+}
+.dec2023 {
+  color: var(--color-gray-100);
+}
+.frameContainer,
+.lastAppointmentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  flex: 1;
+  gap: var(--gap-lg);
+}
+.male,
+.sex {
+  position: relative;
+}
+.male {
+  color: var(--color-gray-100);
+}
+.sexParent {
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.kg,
+.weight {
+  position: relative;
+}
+.kg {
+  color: var(--color-gray-100);
+}
+.weightParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-lgi);
+}
+.frameGroup,
+.frameWrapper,
+.tableParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  font-size: var(--font-size-mini);
+}
+.tableParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xl);
+  min-width: 179px;
+}
+.patientId {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.textLabel {
+  position: relative;
+  font-size: var(--font-size-mid);
+}
+.hightFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+  gap: var(--gap-6xs);
+}
+.cm,
+.hight {
+  position: relative;
+}
+.cm {
+  color: var(--color-gray-100);
+}
+.hightParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.jan2023,
+.regdate {
+  position: relative;
+}
+.jan2023 {
+  color: var(--color-gray-100);
+}
+.frameParent1,
+.regdateParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+}
+.hightFrameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 172px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 172px;
+  font-size: var(--font-size-2xl);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .patientName {
+    font-size: var(--font-size-lgi);
+  }
+  .patientId {
+    font-size: var(--font-size-mid);
+  }
+  .frameDiv {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

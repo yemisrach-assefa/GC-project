@@ -1,0 +1,71 @@
+.frameChild {
+  width: 94px;
+  height: 94px;
+}
+.b,
+.frameChild,
+.totalPatients {
+  position: relative;
+}
+.b {
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-10xs);
+  font-size: var(--font-size-17xl);
+  color: var(--color-seagreen);
+}
+.tillToday {
+  position: relative;
+  font-size: var(--font-size-mini);
+}
+.totalPatientsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.card,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.card {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-8xl) var(--padding-15xl) var(--padding-8xl)
+    var(--padding-18xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .b {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .b {
+    font-size: var(--font-size-3xl);
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+}

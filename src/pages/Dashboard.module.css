@@ -1,0 +1,1424 @@
+.materialSymbolsdashboardOutIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard1,
+.dashboard2 {
+  display: flex;
+  align-items: center;
+}
+.dashboard2 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.dashboard1 {
+  flex-direction: row;
+  justify-content: center;
+}
+.icondashboard,
+.materialSymbolsdashboardOutParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutParent {
+  border-right: 3px solid var(--color-cadetblue-100);
+  box-sizing: border-box;
+  width: 204px;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.icondashboard {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-12xs);
+  background-color: transparent;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.appointmentIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.dashboard3,
+.icondashboard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard3 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0;
+}
+.icondashboard1 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.registrationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard6 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.dashboard5,
+.icondashboard2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard5 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0;
+}
+.icondashboard2 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.userIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard8 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.dashboard7,
+.icondashboard3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard7 {
+  padding: 0 var(--padding-12xl) 0 0;
+}
+.icondashboard3 {
+  gap: var(--gap-mini);
+}
+.profileIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.dashboard10 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.dashboard9,
+.icondashboard4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard9 {
+  flex: 1;
+  overflow: hidden;
+}
+.icondashboard4 {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.materialSymbolsdashboardOutIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.dashboard11 {
+  position: relative;
+  width: 124px;
+  height: 29px;
+}
+.icondashboard5,
+.materialSymbolsdashboardOutGroup {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutGroup {
+  border-right: 3px solid var(--color-cadetblue-100);
+  display: flex;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-mini);
+}
+.icondashboard5 {
+  align-self: stretch;
+  display: none;
+  color: var(--color-black);
+}
+.materialSymbolsdashboardOutIcon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.dashboard13 {
+  position: relative;
+  width: 124px;
+  height: 29px;
+}
+.icondashboard6,
+.materialSymbolsdashboardOutContainer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.materialSymbolsdashboardOutContainer {
+  border-right: 3px solid var(--color-cadetblue-100);
+  display: flex;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-mini);
+}
+.icondashboard6 {
+  align-self: stretch;
+  display: none;
+  color: var(--color-black);
+}
+.icondashboardParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-4xl);
+}
+.frameWrapper,
+.icondashboardParent,
+.profileParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 166px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.profileParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-52xl);
+}
+.materialSymbolslogoutSharpIcon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logout {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.materialSymbolslogoutSharpParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-3xs);
+  color: var(--color-black);
+}
+.dashboard15,
+.mainSidebar {
+  display: flex;
+  align-items: center;
+}
+.mainSidebar {
+  background-color: var(--color-powderblue-100);
+  width: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: 398px;
+}
+.dashboard15 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.screenshot202401031015311 {
+  position: relative;
+  width: 137px;
+  height: 54px;
+  object-fit: cover;
+}
+.dashboardParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-7xs);
+  gap: var(--gap-xl);
+}
+.frameChild {
+  width: 94px;
+  height: 94px;
+}
+.b,
+.frameChild,
+.totalPatients {
+  position: relative;
+}
+.b {
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  font-size: var(--font-size-17xl);
+  color: var(--color-seagreen);
+}
+.tillToday {
+  position: relative;
+}
+.tillTodayWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  font-size: var(--font-size-mini);
+}
+.frameContainer,
+.totalPatientsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameContainer {
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.card,
+.cardParent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.card {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  width: 347px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xl) var(--padding-xs) var(--padding-8xl) 17px;
+  min-width: 226px;
+}
+.cardParent {
+  margin: 0;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 35px;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.patientsSummaryTill {
+  position: absolute;
+  top: 13px;
+  left: calc(50% - 156.5px);
+  color: #08bed0;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 117.5px;
+  left: 329px;
+  border-radius: 50%;
+  background-color: #41f95e;
+  width: 21px;
+  height: 21px;
+}
+.frameInner,
+.totalPatients1 {
+  position: absolute;
+  top: 116px;
+  left: 368px;
+}
+.frameInner {
+  top: 166.5px;
+  left: 329px;
+  border-radius: 50%;
+  background-color: #571ef8;
+  width: 21px;
+  height: 21px;
+}
+.ellipseDiv,
+.newPatients {
+  position: absolute;
+  top: 165px;
+  left: 368px;
+}
+.ellipseDiv {
+  top: 215.5px;
+  left: 329px;
+  border-radius: 50%;
+  background-color: #4ff9ef;
+  width: 21px;
+  height: 21px;
+}
+.chartIcon,
+.oldPatients {
+  position: absolute;
+  top: 214px;
+  left: 368px;
+}
+.chartIcon {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.b1,
+.totalPatients2 {
+  position: relative;
+}
+.b1 {
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 var(--padding-mini);
+  font-size: var(--font-size-17xl);
+  color: var(--color-seagreen);
+}
+.today {
+  position: relative;
+}
+.todayWrapper,
+.totalPatientsGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.todayWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+  font-size: var(--font-size-mini);
+}
+.totalPatientsGroup {
+  position: absolute;
+  top: 136px;
+  left: 131px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xs);
+  opacity: 0.61;
+  z-index: 1;
+}
+.chartParent {
+  position: absolute;
+  top: 13px;
+  left: -33px;
+  width: 362px;
+  height: 357px;
+  font-size: var(--font-size-base);
+}
+.patientsSummaryTillNow202Parent {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: rgba(243, 240, 240, 0.61);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  height: 353px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nextPatientDetails {
+  position: relative;
+  padding-left: var(--padding-xl);
+}
+.nextPatientDetailsWrapper {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.patientName {
+  position: absolute;
+  margin: 0 !important;
+  top: 92px;
+  left: 74px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.seeAll1 {
+  position: relative;
+  font-weight: 600;
+}
+.seeAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-7xs) 0;
+}
+.accept {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--outline-action-primary);
+  text-align: left;
+}
+.acceptWrapper,
+.button,
+.buttonInner {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acceptWrapper {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.button,
+.buttonInner {
+  box-sizing: border-box;
+}
+.buttonInner {
+  cursor: pointer;
+  border: 2px solid var(--outline-action-primary);
+  padding: 0 var(--padding-9xs) 0 0;
+  background-color: transparent;
+  height: 34px;
+  justify-content: flex-start;
+}
+.button {
+  background-color: var(--background-action-primary-hover);
+  border: 4px solid var(--border-action-selected-outer);
+  width: 77px;
+  height: 42px;
+  justify-content: center;
+}
+.cancel {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--outline-action-primary);
+  text-align: left;
+}
+.button1,
+.buttonChild,
+.cancelWrapper {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cancelWrapper {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.button1,
+.buttonChild {
+  box-sizing: border-box;
+}
+.buttonChild {
+  cursor: pointer;
+  border: 2px solid var(--outline-action-primary);
+  padding: 0 var(--padding-9xs) 0 0;
+  background-color: transparent;
+  height: 34px;
+  justify-content: flex-start;
+}
+.button1 {
+  background-color: var(--color-palevioletred);
+  border: 4px solid var(--color-palevioletred);
+  width: 77px;
+  height: 42px;
+  justify-content: center;
+}
+.acceptButton,
+.acceptButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.acceptButton {
+  align-self: stretch;
+  height: 34px;
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+.acceptButtonWrapper {
+  width: 166px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.frameWrapper1,
+.seeAllParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.seeAllParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper1 {
+  width: 448px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.frameParent3 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-mediumblue);
+}
+.frameParent1,
+.frameParent2,
+.frameParent3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-smi) 59px var(--padding-lg) var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-4xs);
+  color: var(--color-darkturquoise-100);
+}
+.frameParent1 {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  min-width: 365px;
+}
+.nextPatientDetails1 {
+  position: relative;
+}
+.nextPatientDetailsContainer {
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.patientName1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 92px;
+  left: 74px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.seeAll3 {
+  position: relative;
+  font-weight: 600;
+}
+.seeAll2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-7xs) 0;
+}
+.accept1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--outline-action-primary);
+  text-align: left;
+}
+.acceptContainer,
+.button2,
+.frameButton {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acceptContainer {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.button2,
+.frameButton {
+  box-sizing: border-box;
+}
+.frameButton {
+  cursor: pointer;
+  border: 2px solid var(--outline-action-primary);
+  padding: 0 var(--padding-9xs) 0 0;
+  background-color: transparent;
+  height: 34px;
+  justify-content: flex-start;
+}
+.button2 {
+  background-color: var(--background-action-primary-hover);
+  border: 4px solid var(--border-action-selected-outer);
+  width: 77px;
+  height: 42px;
+  justify-content: center;
+}
+.cancel1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--outline-action-primary);
+  text-align: left;
+}
+.button3,
+.buttonInner1,
+.cancelContainer {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cancelContainer {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.button3,
+.buttonInner1 {
+  box-sizing: border-box;
+}
+.buttonInner1 {
+  cursor: pointer;
+  border: 2px solid var(--outline-action-primary);
+  padding: 0 var(--padding-9xs) 0 0;
+  background-color: transparent;
+  height: 34px;
+  justify-content: flex-start;
+}
+.button3 {
+  background-color: var(--color-palevioletred);
+  border: 4px solid var(--color-palevioletred);
+  width: 77px;
+  height: 42px;
+  justify-content: center;
+}
+.buttonParent,
+.frameWrapper3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonParent {
+  align-self: stretch;
+  height: 34px;
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+.frameWrapper3 {
+  width: 166px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.seeAllGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameParent5,
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xl) 0 var(--padding-lg);
+  font-size: var(--font-size-mini);
+  color: var(--color-mediumblue);
+}
+.frameParent5 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-lg)
+    var(--padding-lg);
+  position: relative;
+  gap: var(--gap-9xs);
+}
+.patientName2 {
+  position: relative;
+  display: none;
+}
+.table {
+  width: 165.3px;
+  height: 10.7px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-8xs);
+  box-sizing: border-box;
+}
+.todayAppointment {
+  position: relative;
+}
+.todayAppointmentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 var(--padding-xl);
+}
+.patientName3 {
+  position: relative;
+}
+.table1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-6xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.tableChild {
+  position: relative;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.patientName4,
+.table2 {
+  display: flex;
+  align-items: center;
+}
+.patientName4 {
+  position: relative;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table2 {
+  align-self: stretch;
+  height: 35px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.tableItem {
+  position: relative;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.patientName5,
+.table3 {
+  display: flex;
+  align-items: center;
+}
+.patientName5 {
+  position: relative;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table3 {
+  align-self: stretch;
+  height: 35px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.tableInner {
+  position: relative;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.patientName6,
+.table4 {
+  display: flex;
+  align-items: center;
+}
+.patientName6 {
+  position: relative;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table4 {
+  align-self: stretch;
+  height: 35px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.ellipseIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.patientName7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table5,
+.tableGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table5 {
+  align-self: stretch;
+  height: 35px;
+  flex-direction: row;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.tableGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 127px;
+}
+.patientName8 {
+  position: relative;
+}
+.table6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-6xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.patientName9 {
+  position: relative;
+}
+.table7 {
+  align-self: stretch;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.patientName10 {
+  position: relative;
+}
+.table8 {
+  align-self: stretch;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.patientName11 {
+  position: relative;
+}
+.table9 {
+  align-self: stretch;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.patientName12 {
+  position: relative;
+}
+.table10,
+.tableContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table10 {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: row;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.tableContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 123px;
+}
+.patientName13 {
+  position: relative;
+}
+.patientName14,
+.table11 {
+  display: flex;
+  align-items: center;
+}
+.table11 {
+  width: 92px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.patientName14 {
+  position: relative;
+  white-space: nowrap;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table12 {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.patientName15,
+.table12,
+.table13 {
+  display: flex;
+  align-items: center;
+}
+.patientName15 {
+  position: relative;
+  white-space: nowrap;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table13 {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.patientName16 {
+  position: relative;
+  white-space: nowrap;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.patientName16,
+.patientName17,
+.table14 {
+  display: flex;
+  align-items: center;
+}
+.table14 {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.patientName17 {
+  position: relative;
+  white-space: nowrap;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.table15,
+.tableParent1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table15 {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: row;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.tableParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 123px;
+}
+.frameParent7 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  z-index: 1;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.frameParent6,
+.frameParent7,
+.frameWrapper4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  width: 537px;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.frameWrapper4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkturquoise-100);
+}
+.seeAll5 {
+  position: relative;
+  font-weight: 600;
+}
+.seeAll4,
+.tableParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-3xl) var(--padding-8xs) 0;
+  color: var(--color-mediumblue);
+}
+.tableParent {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-smi) 0 var(--padding-sm) var(--padding-11xs);
+  box-sizing: border-box;
+  gap: 14px;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.frameDiv,
+.frameGroup,
+.frameParent,
+.frameParent4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent4 {
+  width: 523px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  min-width: 523px;
+  color: var(--color-darkturquoise-100);
+}
+.frameDiv,
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 37px;
+}
+.frameGroup,
+.frameParent {
+  flex-direction: column;
+  gap: 40px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frameParent {
+  align-items: flex-end;
+  gap: 53px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-cadetblue-200);
+  font-family: var(--font-inter);
+}
+.dashboard,
+.dashboardInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dashboardInner {
+  width: 1121px;
+  flex-direction: column;
+  padding: 58px 0 0;
+  max-width: 100%;
+}
+.dashboard {
+  position: relative;
+  background-color: var(--outline-action-primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs);
+  gap: 27px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1325px) {
+  .dashboard {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .mainSidebar {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .cardParent {
+    flex-wrap: wrap;
+  }
+  .frameParent4 {
+    flex: 1;
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+  .dashboardInner {
+    padding-top: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainSidebar {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dashboard15 {
+    font-size: var(--font-size-13xl);
+  }
+  .b {
+    font-size: var(--font-size-10xl);
+  }
+  .cardParent {
+    gap: var(--gap-mid);
+  }
+  .b1 {
+    font-size: var(--font-size-10xl);
+  }
+  .frameParent2 {
+    padding-right: 29px;
+    box-sizing: border-box;
+  }
+  .frameParent4 {
+    min-width: 100%;
+  }
+  .frameDiv {
+    gap: var(--gap-lg);
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .frameParent {
+    gap: var(--gap-7xl);
+  }
+  .dashboardInner {
+    padding-top: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dashboard10,
+  .dashboard12,
+  .dashboard14,
+  .dashboard2,
+  .dashboard4,
+  .dashboard6,
+  .dashboard8,
+  .logout {
+    font-size: var(--font-size-lgi);
+  }
+  .mainSidebar {
+    gap: 199px;
+  }
+  .dashboard15 {
+    font-size: var(--font-size-5xl);
+  }
+  .dashboardParent {
+    flex-wrap: wrap;
+  }
+  .b {
+    font-size: var(--font-size-3xl);
+  }
+  .frameContainer {
+    gap: var(--gap-base);
+  }
+  .newPatients,
+  .oldPatients,
+  .patientsSummaryTill,
+  .totalPatients1 {
+    font-size: var(--font-size-base);
+  }
+  .b1 {
+    font-size: var(--font-size-3xl);
+  }
+  .nextPatientDetails {
+    font-size: var(--font-size-base);
+  }
+  .seeAllParent {
+    flex-wrap: wrap;
+  }
+  .frameParent1 {
+    min-width: 100%;
+  }
+  .nextPatientDetails1 {
+    font-size: var(--font-size-base);
+  }
+  .seeAllGroup {
+    flex-wrap: wrap;
+  }
+  .todayAppointment {
+    font-size: var(--font-size-base);
+  }
+  .frameParent7 {
+    flex-wrap: wrap;
+  }
+}

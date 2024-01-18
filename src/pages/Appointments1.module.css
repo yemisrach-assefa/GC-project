@@ -1,0 +1,169 @@
+.bookAppointment {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.addIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.newAppointment {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  line-height: 140%;
+  font-family: var(--font-saira-semicondensed);
+  color: var(--color-black);
+  text-align: left;
+}
+.addParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.addParent:hover {
+  background-color: var(--color-silver-200);
+}
+.bookAppointmentParent,
+.calanderWrapper,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+}
+.bookAppointmentParent,
+.calanderWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bookAppointmentParent {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-22xl);
+}
+.calanderWrapper {
+  align-self: stretch;
+  height: 510px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xl);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-37xl);
+}
+.frameParent,
+.frameWrapper,
+.mainSidebarParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-44xl) 0 0;
+  box-sizing: border-box;
+  min-width: 293px;
+}
+.mainSidebarParent {
+  width: 742px;
+  flex-direction: row;
+  gap: var(--gap-22xl);
+  min-width: 742px;
+}
+.dayDate {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  height: 422.8px;
+  object-fit: contain;
+  display: none;
+}
+.appointments,
+.appointmentsInner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.appointmentsInner {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 32px;
+  min-width: 578px;
+  max-width: 100%;
+}
+.appointments {
+  position: relative;
+  background-color: var(--outline-action-primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-12xs) 0 0;
+  gap: 72px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-cadetblue-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1325px) {
+  .appointmentsInner,
+  .mainSidebarParent {
+    flex: 1;
+  }
+  .appointments {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bookAppointment {
+    font-size: var(--font-size-5xl);
+  }
+  .bookAppointmentParent {
+    gap: var(--gap-xl);
+  }
+  .frameParent {
+    gap: var(--gap-9xl);
+  }
+  .appointments {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookAppointment {
+    font-size: var(--font-size-13xl);
+  }
+  .frameWrapper {
+    padding-top: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+  .mainSidebarParent {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .appointmentsInner {
+    min-width: 100%;
+  }
+  .appointments {
+    gap: var(--gap-17xl);
+  }
+}
